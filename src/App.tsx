@@ -1,11 +1,9 @@
-import './App.css';
 import Grid from '@mui/material/Unstable_Grid2';
 import CardDisplay from './components/CardDisplay/CardDisplay';
 
 function App() {
   return (
     <Grid
-      height="100vh"
       container
       justifyContent="space-around"
       alignItems="center"
@@ -14,7 +12,7 @@ function App() {
         <CardDisplay
           title="Ad Listing"
           content="Check out other advertisements"
-          image="vite.svg"
+          image="add.webp"
           buttonText="Browse"
         />
       </Grid>
@@ -22,7 +20,7 @@ function App() {
         <CardDisplay
           title="Create an ad"
           content="Create an new ad to show to customers"
-          image="vite.svg"
+          image="addpromo.webp"
           buttonText="Create"
         />
       </Grid>
